@@ -1,14 +1,21 @@
-div.c-message.c-message--light.c-message--hover {
-  color: #e6e6e6 !important;
-}
 div.c-virtual_list__scroll_container {
-    background-color: #222222 !important;
+   background-color: #222222 !important;
+}
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
+    z-index: 0;
 }
 div.c-message__content:hover {
-    background-color: #222222 !important;
+   background-color: #222222 !important;
 }
 
+div.c-message:hover {
+   background-color: #222222 !important;
+}
 
+span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption, div.p-message_pane__foreword__description span
+{
+	color: #e6e6e6 !important;
+}
 
 body { background: #222222 !important; color: #e6e6e6 !important; }
 
